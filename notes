@@ -6,3 +6,40 @@ Less ceremony than Java
 Var mutable vs Val - Val is immutable
 
 No real need for classes
+
+Kotlin uses unchecked exceptions
+
+Functions dont need to be declared part of a class
+ - Can have default parameters
+ - Can have named parameters
+ - Can extend 'extend' existing types
+
+Function Expressions - One line functions
+
+Named Parameters - Use names of parameters at point of calling so order doesnt matter
+
+Extension Functions
+- Can 'add' functions to classes not owned by you
+- Kotlin generates static functions
+- Cuts down on the use of utility classes
+- Makes code easier to read
+
+Infix functions
+- Member of extension functions
+- Have a single parameter
+- Marked with infix keyword
+
+Can you tailrec keyword for recursion
+
+Interfaces - : acts as implement/extend
+
+Classes
+ - Final by default - Must use Open keyword
+ - Modifiers
+ - Sealed Class - Fixed set of derivations(ENUM)
+ - Constructors
+ - Data Classes
+
+Sealed Classes
+ - Used to restrict class Hierarchies
+ - 'Enums on steroids'

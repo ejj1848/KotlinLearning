@@ -1,10 +1,21 @@
 import domain.Person
 import domain.Question
+import java.io.FileReader
+import java.io.IOException
 import java.util.*
 
 fun main() {
 
+}
 
+fun exxxxcepptions() {
+
+    var reader = FileReader("filename")
+    try {
+        reader.read()
+    }catch (e : IOException){
+        println(e)
+    }
 
 }
 
@@ -33,7 +44,7 @@ fun loops() {
     for (i in numbers) {
         println(i)
     }
-    for((index, element) in numbers.withIndex()){
+    for ((index, element) in numbers.withIndex()) {
         println("$element at $index")
     }
 
@@ -41,12 +52,11 @@ fun loops() {
     var ages = TreeMap<String, Int>()
     ages["Kevin"] = 55
     ages["Eric"] = 30
-    ages["Bipin"] =40
+    ages["Bipin"] = 40
 
-    for ((name, age) in ages){
+    for ((name, age) in ages) {
         println("$name is $age")
     }
-
 
 
 }
